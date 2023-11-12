@@ -11,15 +11,21 @@ HaloCE Gametype Editor features 2 main viewing modes: a normal view (an interfac
 
 #### Normal interface
 Edit gametypes with an interface that mimics the original game.
+
 ![HaloCE Gametype Editor (Normal)](assets/interface_normal.png)
+
 
 #### Advanced interface
 Edit gametypes with a custom advanced interface.
+
 ![HaloCE Gametype Editor (Advanced)](assets/interface_advanced.png)
+
 
 #### Information screen
 View information and settings.
+
 ![HaloCE Gametype Editor (Information)](assets/interface_information.png)
+
 
 Developed and tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
 

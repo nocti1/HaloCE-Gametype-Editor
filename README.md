@@ -23,6 +23,8 @@ View information and settings.
 
 Developed and tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
 
-If you can confirm it's working on a different version or have a bug to report, please raise an issue, or add me on Discord: `nocti1`
+If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, or message me on Discord: `nocti1`
 
 Release date: `soon`
+
+Thanks

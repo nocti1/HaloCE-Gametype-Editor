@@ -27,4 +27,4 @@ If you can confirm it's working on a different version or you have a bug to repo
 
 Release date: `soon`
 
-Thanks
+Thx

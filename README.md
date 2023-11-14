@@ -2,7 +2,7 @@
 A fully-featured gametype editor for Halo Custom Edition.
 
 This tool was created to edit the native gametype format for Halo (blam.lst) with greater ease and flexability.
-It allows for custom values to be set as well as fixing an issue the original game has when creating a Capture The Flag gametype with a score limit higher than 1.
+It allows for custom values to be set, as well as fixing an issue the original game has when creating a Capture The Flag gametype where the score limit is always set to 1.
 
 In the future I intend to implement a warnings system to notify you if you've set values outside of ranges that would be possible in the normal game.
 Some things outside of these ranges will work fine but some may have unintended consequnces, the details pages in the advanced view will be updated with more detailed information in time as it's discovered.

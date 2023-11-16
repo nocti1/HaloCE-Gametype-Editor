@@ -1,13 +1,22 @@
 # HaloCE Gametype Editor
 A fully-featured gametype editor for Halo Custom Edition.
 
-This tool was created to edit the native gametype format for Halo (blam.lst) with greater ease and flexability.
+This tool was created to edit the native gametype format for Halo (blam.lst) with greater ease and flexibility.
 It allows for custom values to be set, as well as fixing an issue the original game has when creating a Capture The Flag gametype where the score limit is always set to 1.
 
 In the future I intend to implement a warnings system to notify you if you've set values outside of ranges that would be possible in the normal game.
 Some things outside of these ranges will work fine but some may have unintended consequnces, the details pages in the advanced view will be updated with more detailed information in time as it's discovered.
 
 HaloCE Gametype Editor features 2 main viewing modes: a normal view (an interface that mimics the original game), and the advanced view, which allows you to set almost any value in most fields. 
+
+### Features
+- Edit Halo Custom Edition gametypes with a familiar interface
+- Set custom values for any property
+- Details pane for each property
+- Update CRC check for broken gametypes
+- Automatically backup gametypes
+- Automatic update checking
+- 7 different themes
 
 #### Normal interface
 Edit gametypes with an interface that mimics the original game.
@@ -27,8 +36,7 @@ View information and settings.
 ![HaloCE Gametype Editor (Information)](assets/interface_settings.png)
 
 
-Developed and tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
-Developed and tested on Windows 10 with .NET Framework 4.7.2, hopefully it works on older versions of Windows too.
+Developed and on Windows 10 with .NET Framework 4.7.2, tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
 
 If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, or message me on Discord: `nocti1`
 

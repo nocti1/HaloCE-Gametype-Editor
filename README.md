@@ -36,7 +36,7 @@ View information and settings.
 ![HaloCE Gametype Editor (Information)](assets/interface_settings.png)
 
 
-Developed and on Windows 10 with .NET Framework 4.7.2, tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
+Developed on Windows 10 with .NET Framework 4.7.2, tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
 
 If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, or message me on Discord: `nocti1`
 

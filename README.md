@@ -24,7 +24,7 @@ Edit gametypes with a custom advanced interface.
 #### Information screen
 View information and settings.
 
-![HaloCE Gametype Editor (Information)](assets/interface_information.png)
+![HaloCE Gametype Editor (Information)](assets/interface_settings.png)
 
 
 Developed and tested with Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.

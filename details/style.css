@@ -1,0 +1,32 @@
+@charset "utf-8";
+body {
+	font-family: "Segoe UI";
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+	color: #eee;
+}
+#container {
+	width: 639px;
+	font-size: 11pt;
+	padding: 0;
+	margin: 10px;
+	position: absolute;
+	top: -8px;
+	background-image: url("bar_right.gif");
+	background-repeat: no-repeat;
+	background-position: right 10px;
+}
+h1 {
+	color: #51a9ff;
+	font-size: 12pt;
+	margin: 0 0 -3px 4px;
+	padding: 10px 0 10px 30px;
+	background-image: url("bar_left.gif");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+p {
+	padding: 0;
+	margin: 0;
+}

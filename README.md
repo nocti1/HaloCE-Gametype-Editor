@@ -12,9 +12,9 @@ HaloCE Gametype Editor features 2 main viewing modes: a normal view (an interfac
 ### Features
 - Edit Halo Custom Edition gametypes with a familiar interface
 - Set custom values for any property
-- Details pane for each property
-- Update CRC check for broken gametypes
-- Automatically backup gametypes
+- Details page with information for each property (pulled live from Github)
+- Update CRC check for modified/broken gametypes
+- Automatic gametype backup
 - Automatic update checking
 - 7 different themes
 

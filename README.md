@@ -1,4 +1,4 @@
-# 🎮 HaloCE Gametype Editor ⌨️ 🖱️
+# 🎮 HaloCE Gametype Editor 🎮
 A fully-featured gametype editor for Halo Custom Edition.
 
 This tool was created to edit the native gametype format for Halo (blam.lst) with greater ease and flexibility.
@@ -24,19 +24,19 @@ Some things outside of these ranges will work fine, but some may have unintended
 
 ### 🖥️ Interface
 
-#### Normal interface
+**Normal interface**
 Edit gametypes with an interface that mimics the original game.
 
 ![HaloCE Gametype Editor (Normal)](assets/normal.png)
 
 
-#### Advanced interface
+**Advanced interface**
 Edit gametypes with a custom advanced interface.
 
 ![HaloCE Gametype Editor (Advanced)](assets/advanced.png)
 
 
-#### Information screen
+**Information screen**
 View information and settings.
 
 ![HaloCE Gametype Editor (Information)](assets/settings.png)

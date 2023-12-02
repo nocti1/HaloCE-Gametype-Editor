@@ -25,18 +25,21 @@ Some things outside of these ranges will work fine, but some may have unintended
 ### 🖥️ Interface
 
 **Normal interface**
+
 Edit gametypes with an interface that mimics the original game.
 
 ![HaloCE Gametype Editor (Normal)](assets/normal.png)
 
 
 **Advanced interface**
+
 Edit gametypes with a custom advanced interface.
 
 ![HaloCE Gametype Editor (Advanced)](assets/advanced.png)
 
 
 **Information screen**
+
 View information and settings.
 
 ![HaloCE Gametype Editor (Information)](assets/settings.png)

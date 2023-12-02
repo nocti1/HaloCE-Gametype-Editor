@@ -4,12 +4,10 @@ A fully-featured gametype editor for Halo Custom Edition.
 This tool was created to edit the native gametype format for Halo (blam.lst) with greater ease and flexibility.
 It allows for custom values to be set, as well as fixing an issue the original game has when creating a Capture The Flag gametype where the score limit is always set to 1.
 
-In the future I intend to implement a warnings system to notify you if you've set values outside of ranges that would be possible in the normal game.
-Some things outside of these ranges will work fine but some may have unintended consequnces, the details pages in the advanced view will be updated with more detailed information in time as it's discovered.
+This tool provides great flexability by using the advanced tab, allowing custom values to be set for most variables.
+Some things outside of these ranges will work fine, but some may have unintended consequnces; the details pages in the advanced view will be updated with more detailed information in time.
 
-HaloCE Gametype Editor features 2 main viewing modes: a normal view (an interface that mimics the original game), and the advanced view, which allows you to set almost any value in most fields. 
-
-### Features
+### 🌟 Features
 - Edit Halo Custom Edition gametypes with a familiar interface
 - Set custom values for any property
 - Details page with information for each property (pulled live from Github)
@@ -17,6 +15,12 @@ HaloCE Gametype Editor features 2 main viewing modes: a normal view (an interfac
 - Automatic gametype backup
 - Automatic update checking
 - 7 different themes
+
+### 🔗 Getting started
+Before you begin, be sure you have at least 1 gametype saved in your HaloCE save game folder (usually located in C:\Users\User\Documents\My Games\Halo CE).
+[https://github.com/nocti1/HaloCE-Gametype-Editor/releases/latest]Download the latest verison of HaloCE Gametype Editor from the GitHub releases.
+Run HaloCE.Gametype.Editor.exe and load your gametype, then edit away.
+Once you've finished editing, you can save the file in place to edit an existing gametype, or save as in a new location.
 
 #### Normal interface
 Edit gametypes with an interface that mimics the original game.
@@ -39,7 +43,5 @@ View information and settings.
 Developed on Windows 10 with .NET Framework 4.7.2 for Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
 
 If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, or message me on Discord: `nocti1`
-
-Release date: `soon`
 
 Thx

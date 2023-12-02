@@ -1,4 +1,4 @@
-# 🎮 HaloCE Gametype Editor 🎮
+# 🎮 HaloCE Gametype Editor ⌨️ 🖱️
 A fully-featured gametype editor for Halo Custom Edition.
 
 This tool was created to edit the native gametype format for Halo (blam.lst) with greater ease and flexibility.
@@ -21,6 +21,8 @@ Some things outside of these ranges will work fine, but some may have unintended
 - [Download the latest verison of HaloCE Gametype Editor from GitHub releases](https://github.com/nocti1/HaloCE-Gametype-Editor/releases/latest)
 - Run HaloCE.Gametype.Editor.exe and load your gametype, then edit away
 - Once you've finished editing, you can save the file in place or as another file
+
+### 🖥️ Interface
 
 #### Normal interface
 Edit gametypes with an interface that mimics the original game.

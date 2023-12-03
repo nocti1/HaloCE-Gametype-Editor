@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceBase64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HaloCE Gametype Editor.rc">
+      <Filter>Header Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\HaloCE Gametype Editor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_7.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_top_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_info_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\CTF.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Gametypes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Github.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\GithubUpdate.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\King.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Oddball.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Race.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\Slayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\SuccessIcon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\UpdateIcon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\banner_bottom_10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Interstate-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <_EmbedManagedResourceFile Include="details\details_42.html" />
+    <_EmbedManagedResourceFile Include="details\details__.html" />
+    <_EmbedManagedResourceFile Include="details\details_0.html" />
+    <_EmbedManagedResourceFile Include="details\details_1.html" />
+    <_EmbedManagedResourceFile Include="details\details_2.html" />
+    <_EmbedManagedResourceFile Include="details\details_3.html" />
+    <_EmbedManagedResourceFile Include="details\details_4.html" />
+    <_EmbedManagedResourceFile Include="details\details_5.html" />
+    <_EmbedManagedResourceFile Include="details\details_6.html" />
+    <_EmbedManagedResourceFile Include="details\details_7.html" />
+    <_EmbedManagedResourceFile Include="details\details_8.html" />
+    <_EmbedManagedResourceFile Include="details\details_9.html" />
+    <_EmbedManagedResourceFile Include="details\details_10.html" />
+    <_EmbedManagedResourceFile Include="details\details_11.html" />
+    <_EmbedManagedResourceFile Include="details\details_12.html" />
+    <_EmbedManagedResourceFile Include="details\details_13.html" />
+    <_EmbedManagedResourceFile Include="details\details_14.html" />
+    <_EmbedManagedResourceFile Include="details\details_15.html" />
+    <_EmbedManagedResourceFile Include="details\details_16.html" />
+    <_EmbedManagedResourceFile Include="details\details_17.html" />
+    <_EmbedManagedResourceFile Include="details\details_18.html" />
+    <_EmbedManagedResourceFile Include="details\details_19.html" />
+    <_EmbedManagedResourceFile Include="details\details_20.html" />
+    <_EmbedManagedResourceFile Include="details\details_21.html" />
+    <_EmbedManagedResourceFile Include="details\details_22.html" />
+    <_EmbedManagedResourceFile Include="details\details_23.html" />
+    <_EmbedManagedResourceFile Include="details\details_24.html" />
+    <_EmbedManagedResourceFile Include="details\details_25.html" />
+    <_EmbedManagedResourceFile Include="details\details_26.html" />
+    <_EmbedManagedResourceFile Include="details\details_27.html" />
+    <_EmbedManagedResourceFile Include="details\details_28.html" />
+    <_EmbedManagedResourceFile Include="details\details_29.html" />
+    <_EmbedManagedResourceFile Include="details\details_30.html" />
+    <_EmbedManagedResourceFile Include="details\details_31.html" />
+    <_EmbedManagedResourceFile Include="details\details_32.html" />
+    <_EmbedManagedResourceFile Include="details\details_33.html" />
+    <_EmbedManagedResourceFile Include="details\details_34.html" />
+    <_EmbedManagedResourceFile Include="details\details_35.html" />
+    <_EmbedManagedResourceFile Include="details\details_36.html" />
+    <_EmbedManagedResourceFile Include="details\details_37.html" />
+    <_EmbedManagedResourceFile Include="details\details_38.html" />
+    <_EmbedManagedResourceFile Include="details\details_39.html" />
+    <_EmbedManagedResourceFile Include="details\details_40.html" />
+    <_EmbedManagedResourceFile Include="details\details_41.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\banner_bottom_60png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{448D9BF5-84CE-40D7-83C0-53BAE1CA638E}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>HaloCEGametypeEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>HaloCE Gametype Editor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files (x86)\Microsoft Visual Studio\Shared\Include;</IncludePath>
+    <TargetName>HaloCE Gametype Editor</TargetName>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Program Files (x86)\Microsoft Visual Studio\Shared\lib;</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Program Files (x86)\Microsoft Visual Studio\Shared\Include;</IncludePath>
+    <TargetName>HaloCE Gametype Editor</TargetName>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\Program Files (x86)\Microsoft Visual Studio\Shared\lib;</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Include;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;ws2_32.lib;wldap32.lib;advapi32.lib;kernel32.lib;comdlg32.lib</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Include\curl;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib;C:\Program Files (x86)\Microsoft Visual Studio\Shared\lib\libcurl_a.lib;</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <SubSystem>NotSet</SubSystem>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+    <EmbeddedResource>
+      <LogicalName>
+      </LogicalName>
+    </EmbeddedResource>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="SysIncludes.h" />
+    <ClInclude Include="InfoBox.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="InputForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceBase64.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InfoBox.resx">
+      <DependentUpon>InfoBox.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputForm.resx">
+      <DependentUpon>InputForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HaloCE Gametype Editor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\HaloCE Gametype Editor.ico" />
+    <Image Include="images\banner_bottom_1.png" />
+    <Image Include="images\banner_bottom_10.png" />
+    <Image Include="images\banner_bottom_2.png" />
+    <Image Include="images\banner_bottom_3.png" />
+    <Image Include="images\banner_bottom_4.png" />
+    <Image Include="images\banner_bottom_5.png" />
+    <Image Include="images\banner_bottom_6.png" />
+    <Image Include="images\banner_bottom_7.png" />
+    <Image Include="images\banner_info_1.png" />
+    <Image Include="images\banner_info_2.png" />
+    <Image Include="images\banner_info_3.png" />
+    <Image Include="images\banner_info_4.png" />
+    <Image Include="images\banner_info_5.png" />
+    <Image Include="images\banner_info_6.png" />
+    <Image Include="images\banner_info_7.png" />
+    <Image Include="images\banner_top_1.png" />
+    <Image Include="images\banner_top_2.png" />
+    <Image Include="images\banner_top_3.png" />
+    <Image Include="images\banner_top_4.png" />
+    <Image Include="images\banner_top_5.png" />
+    <Image Include="images\banner_top_6.png" />
+    <Image Include="images\banner_top_7.png" />
+    <Image Include="images\CTF.png" />
+    <Image Include="images\Gametypes.png" />
+    <Image Include="images\Github.png" />
+    <Image Include="images\GithubUpdate.png" />
+    <Image Include="images\King.png" />
+    <Image Include="images\Oddball.png" />
+    <Image Include="images\Race.png" />
+    <Image Include="images\Slayer.png" />
+    <Image Include="images\SuccessIcon.png" />
+    <Image Include="images\UpdateIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <_EmbedManagedResourceFile Include="details\details_0.html" />
+    <_EmbedManagedResourceFile Include="details\details_1.html" />
+    <_EmbedManagedResourceFile Include="details\details_10.html" />
+    <_EmbedManagedResourceFile Include="details\details_11.html" />
+    <_EmbedManagedResourceFile Include="details\details_12.html" />
+    <_EmbedManagedResourceFile Include="details\details_13.html" />
+    <_EmbedManagedResourceFile Include="details\details_14.html" />
+    <_EmbedManagedResourceFile Include="details\details_15.html" />
+    <_EmbedManagedResourceFile Include="details\details_16.html" />
+    <_EmbedManagedResourceFile Include="details\details_17.html" />
+    <_EmbedManagedResourceFile Include="details\details_18.html" />
+    <_EmbedManagedResourceFile Include="details\details_19.html" />
+    <_EmbedManagedResourceFile Include="details\details_2.html" />
+    <_EmbedManagedResourceFile Include="details\details_20.html" />
+    <_EmbedManagedResourceFile Include="details\details_21.html" />
+    <_EmbedManagedResourceFile Include="details\details_22.html" />
+    <_EmbedManagedResourceFile Include="details\details_23.html" />
+    <_EmbedManagedResourceFile Include="details\details_24.html" />
+    <_EmbedManagedResourceFile Include="details\details_25.html" />
+    <_EmbedManagedResourceFile Include="details\details_26.html" />
+    <_EmbedManagedResourceFile Include="details\details_27.html" />
+    <_EmbedManagedResourceFile Include="details\details_28.html" />
+    <_EmbedManagedResourceFile Include="details\details_29.html" />
+    <_EmbedManagedResourceFile Include="details\details_3.html" />
+    <_EmbedManagedResourceFile Include="details\details_30.html" />
+    <_EmbedManagedResourceFile Include="details\details_31.html" />
+    <_EmbedManagedResourceFile Include="details\details_32.html" />
+    <_EmbedManagedResourceFile Include="details\details_33.html" />
+    <_EmbedManagedResourceFile Include="details\details_34.html" />
+    <_EmbedManagedResourceFile Include="details\details_35.html" />
+    <_EmbedManagedResourceFile Include="details\details_36.html" />
+    <_EmbedManagedResourceFile Include="details\details_37.html" />
+    <_EmbedManagedResourceFile Include="details\details_38.html" />
+    <_EmbedManagedResourceFile Include="details\details_39.html" />
+    <_EmbedManagedResourceFile Include="details\details_4.html" />
+    <_EmbedManagedResourceFile Include="details\details_40.html" />
+    <_EmbedManagedResourceFile Include="details\details_41.html" />
+    <_EmbedManagedResourceFile Include="details\details_42.html" />
+    <_EmbedManagedResourceFile Include="details\details_5.html" />
+    <_EmbedManagedResourceFile Include="details\details_6.html" />
+    <_EmbedManagedResourceFile Include="details\details_7.html" />
+    <_EmbedManagedResourceFile Include="details\details_8.html" />
+    <_EmbedManagedResourceFile Include="details\details_9.html" />
+    <_EmbedManagedResourceFile Include="details\details__.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Interstate-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\banner_bottom_60png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

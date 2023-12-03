@@ -50,4 +50,8 @@ Developed on Windows 10 with .NET Framework 4.7.2 for Halo Custom Edition 1.00.1
 ### 📢 Feedback
 If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, or message me on Discord: `nocti1`
 
+### 🏆 Credits
+Credit to Kybo_Ren, ZiON, and Thomas K for discovering the gametype's data structure and providing vehicle functions.
+Created by noctilucent, using the above mentioned people's past work as reference.
+
 Thx

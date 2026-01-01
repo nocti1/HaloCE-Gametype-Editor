@@ -48,7 +48,7 @@ View information and settings.
 Developed on Windows 10 with .NET Framework 4.7.2 for Halo Custom Edition 1.00.10.0621, but will likely work with other versions too.
 
 ### 📢 Feedback
-If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, or message me on Discord: `nocti1`
+If you can confirm it's working on a different version or you have a bug to report, please raise a GitHub issue, message me on Discord: `nocti1`, or send me an email at: `halo@nocti.one`
 
 ### 🏆 Credits
 Credit to Kybo_Ren, ZiON, and Thomas K for initial discovering of the gametype's data structure.

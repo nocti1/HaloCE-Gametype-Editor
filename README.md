@@ -19,14 +19,15 @@ Some things outside of these ranges will work fine, but some may have unintended
 ### 🔗 Getting started
 - Before you begin, please make sure you have at least 1 gametype saved in your HaloCE save game folder (usually located in C:\Users\User\Documents\My Games\Halo CE)
 - [Download the latest verison of HaloCE Gametype Editor from GitHub releases](https://github.com/nocti1/HaloCE-Gametype-Editor/releases/latest)
-- Run HaloCE.Gametype.Editor.exe and load your gametype, then edit away
-- Once you've finished editing, you can save the file in place or as another file
+- Run HaloCE.Gametype.Editor.exe and load your gametype
+- Edit the gametype to your desired configuration
+- Once you've finished editing, you can click Save to save to the current gamtype file, or Save As to save it to another file
 
 ### 🖥️ Interface
 
 **Normal interface**
 
-Edit gametypes with an interface that mimics the original game.
+Edit gametypes with an interface that mimics the original game's menus.
 
 ![HaloCE Gametype Editor (Normal)](assets/normal.png)
 
